@@ -12,3 +12,7 @@ Supports only English symbols/Поддерживает только русски
 ### Tutorial
 
 [RU](docs/ru.md)/[EN](docs/en.md)
+
+### Building
+1. `npm install`
+2. `npm run build`
