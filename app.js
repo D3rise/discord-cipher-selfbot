@@ -49,10 +49,10 @@ client.on("message", message => {
     });
   }
 
-  if (message.content.startsWith(process.env.PREFIX + "caesar-shift")) {
+  if (message.content.startsWith(process.env.PREFIX + "shift")) {
     const num = Number(
       message.content
-        .replace(process.env.PREFIX + "caesar-shift")
+        .replace(process.env.PREFIX + "shift")
         .replace("undefined", "")
         .trim()
     );
